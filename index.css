@@ -1,0 +1,277 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body, html {
+  height: auto;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  
+}
+.img {
+  background-image: url(imges/img1.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(128, 128, 133);
+  background-blend-mode: multiply;
+}
+
+@media (min-width: 767px) {
+  .img {
+    background-image: url(imges/img2.jpg);
+  }
+}
+
+
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+}
+
+/* Book Table Button */
+.book-btn {
+  color: #ffffff;
+  border: 2px solid #b67e17;
+  background-color: transparent;
+  transition: 0.3s ease;
+  padding: 6px 16px;
+  font-weight: 500;
+  width: 170px;
+  height: 40px;
+}
+
+.book-btn:hover {
+  background-color: #b67e17;
+  color: #000000;
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0px 0px 20px 10px #d4571d ;
+}
+
+/* Hero Content */
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 span {
+  color: #b67e17;
+}
+
+#para p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.btn1 {
+  margin-top: 25px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 25px;
+  border: 2px solid #b67e17;
+  border-radius: 30px;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+  background-color: #b67e17;
+  color: black;
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0px 0px 10px 4px  #cc4d26 ;
+}
+
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  #para p {
+    font-size: 16px;
+  }
+
+  .cta-btn {
+    margin-top: 10px;
+    padding: 8px 20px;
+  }
+
+  .container1 {
+    padding: 10px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}
+
+.img11 {
+  background-image: url(img1.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(57, 57, 59);
+  background-blend-mode: multiply;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+ .card-hover img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 10px solid black;
+  }
+
+  .card-hover:hover img {
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0 10px 20px  #b67e17; 
+  }
+
+  .text-menu{
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 10px;
+    text-shadow: 2px 3px 4px rgb(243, 191, 95);
+    
+  }
+
+  .text-menu:hover span{
+     transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0px 0px 50px 15px  #b67e17 ;
+  }
+
+
+    .card-menu1{
+    color: #fff;
+    
+  }
+
+  .card-menu1:hover h5{
+    color: #b67e17;
+  }
+
+
+   
+  .menu-img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 5px solid black;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+
+
+
+
+  .img-e4 {
+  background-image: url(events1.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(57, 57, 59);
+  background-blend-mode: multiply;
+  padding-bottom: 40px;
+}
+
+.img-g {
+  overflow: hidden;
+  border-radius: 0px;
+  width: 100%; 
+}
+
+.img-g img {
+  display: block;
+  width: 100%;
+  height: auto; 
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-g:hover img {
+  transform: scale(1.1);
+}
+
+/* Chef image section */
+.img-c {
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-c img {
+  width: 100%;
+  height: auto; 
+  transition: transform 0.5s;
+  display: block;
+}
+
+.img-c:hover img {
+  transform: scale(1.1);
+}
+
+.container9{
+   width: 100%;
+   height: auto;
+  background-color: rgb(49, 48, 48);
+
+}
+
+
+.form-control {
+  background-color: #000;         
+  border: 3px solid #b68936;      
+  color: #fff;    
+}
+
+
+.form-control::placeholder {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.form-floating > label {
+  color: #ccc;
+}
+
+.btn111{
+ display: inline-block;
+  margin-right: 15px;
+  padding: 10px 25px;
+  border: 2px solid #b67e17;
+  border-radius: 30px;
+  background: black;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+   box-shadow: 0px 0px 10px 4px  #28547c ;
+
+
+}
+.btn111:hover{
+   background-color: #b67e17;
+  color: black;
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0px 0px 10px 4px  #28547c ;
+}
+
+
+
